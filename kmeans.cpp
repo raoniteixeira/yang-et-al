@@ -1,7 +1,7 @@
 /* implementation of fingerprint segmentation method proposed in [1] 
  * using OpenCV lib.
  * 
- * shortly, the method defines two cluster (foreground and background), 
+ * shortly, the method defines two clusters (foreground and background), 
  * by considering the block-wise features CMV (coherence, median and variance) 
  * and the K-means algorithm. 
  * for addition details about this features space see, for example, [2].
